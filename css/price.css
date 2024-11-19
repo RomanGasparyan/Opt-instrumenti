@@ -1,0 +1,18 @@
+.price {
+  background-color: #005bff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.price-btn {
+  width: 218px;
+  display: inline-block;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #1d1d1f6f;
+  color: #fff;
+  cursor: pointer;
+}

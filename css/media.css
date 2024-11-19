@@ -1,0 +1,287 @@
+@media (max-width: 1200px) {
+  .phone,
+  .icon-2 {
+    display: none;
+  }
+  .icon {
+    display: block;
+    display: flex;
+    gap: 40px;
+  }
+  .logo {
+    text-align: center;
+  }
+  .headline-img {
+    max-width: 100%;
+  }
+  .contacts-inner {
+    display: block;
+  }
+  .contacts-form {
+    width: auto;
+  }
+  .contacts-title {
+    text-align: center;
+  }
+  .contacts-img {
+    width: 100%;
+  }
+  .contacts {
+    background-color: #574b63;
+  }
+}
+
+@media (max-width: 1200px) {
+  .icon {
+    display: block;
+    display: flex;
+    gap: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  .menu-btn {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    order: 1;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 60;
+  }
+  .icon-2 {
+    display: none;
+  }
+
+  .logo,
+  .phone {
+    position: relative;
+    z-index: 50;
+  }
+  .btn-line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    height: 2px;
+    transition: 0.3s ease;
+  }
+  .btn-line:nth-child(1) {
+    top: 0;
+  }
+  .btn-line:nth-child(2) {
+    top: 10px;
+  }
+  .btn-line:nth-child(3) {
+    top: 10px;
+  }
+  .btn-line:nth-child(4) {
+    top: 20px;
+  }
+  .menu-open .btn-line:nth-child(1) {
+    transform: scale(0);
+  }
+  .menu-open .btn-line:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  .menu-open .btn-line:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  .menu-open .btn-line:nth-child(4) {
+    transform: scale(0);
+  }
+
+  .menu {
+    transform: translateY(-50px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -90px;
+    background-color: #e6e3e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: 0.3s ease;
+  }
+  .menu-open .menu {
+    transform: translateY(0%);
+  }
+  .menu-item {
+    padding: 15px 0;
+    font-size: 24px;
+  }
+  .menu-link {
+    font-size: 24px;
+  }
+  .images-new {
+    display: none;
+  }
+  .new-text p,
+  .new-text b {
+    max-width: 100%;
+  }
+  .phone {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-inner {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .footer-inner .logo {
+    margin: 15px 0;
+  }
+  .card {
+    max-width: 220px;
+  }
+}
+@media (max-width: 560px) {
+  .header {
+    padding: 0 25px;
+  }
+  .menu-btn {
+    width: 50px;
+    height: 12px;
+    transform: translateX(15px);
+  }
+  .card {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 545px) {
+  .card {
+    max-width: 200px;
+  }
+}
+@media (max-width: 520px) {
+  h1 {
+    font-size: 36px;
+  }
+  .card {
+    max-width: 180px;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+  .card {
+    max-width: 170px;
+  }
+}
+@media (max-width: 464px) {
+  .card {
+    max-width: 150px;
+  }
+  .img {
+    width: 132px;
+    height: 104px;
+  }
+}
+
+@media (max-width: 412px) {
+  .card {
+    max-width: 130px;
+  }
+  .img {
+    width: 120px;
+    height: 90px;
+  }
+  .card-name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .svg {
+    position: absolute;
+    bottom: 4px;
+    left: 7px;
+  }
+
+  .span-card {
+    font-size: 11px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 130px;
+  }
+  .img {
+    width: 100px;
+    height: 70px;
+  }
+  .card-name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 365px) {
+  .card {
+    max-width: 130px;
+  }
+  .img {
+    width: 100px;
+    height: 70px;
+  }
+  .card-name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 350px) {
+  .card {
+    max-width: 120px;
+  }
+  .img {
+    width: 100px;
+    height: 70px;
+  }
+  .card-name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 325px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .card {
+    max-width: 115px;
+  }
+  .img {
+    width: 80px;
+    height: 60px;
+  }
+  .card-name {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 315px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .card {
+    max-width: 70%;
+  }
+  .img {
+    width: 80px;
+    height: 60px;
+  }
+  .card-name {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}

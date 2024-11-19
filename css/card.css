@@ -1,0 +1,56 @@
+.card-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  z-index: -1;
+
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  /* border: 1px solid orangered; */
+}
+.card-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #f00;
+
+  display: inline-block;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.img {
+  margin-top: 9px;
+}
+.corona {
+  position: absolute;
+  top: 4px;
+  left: 9px;
+}
+.arrow {
+  position: absolute;
+  bottom: 0px;
+  right: 13px;
+}
+
+.svg {
+  position: absolute;
+  bottom: 4px;
+  left: 9px;
+  display: flex;
+  gap: 5px;
+}
+.span-card {
+  font-size: 13px;
+  font-weight: 700;
+}
